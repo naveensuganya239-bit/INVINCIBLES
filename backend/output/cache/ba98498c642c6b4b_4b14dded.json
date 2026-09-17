@@ -1,0 +1,1880 @@
+{
+  "project": "INVINCIBLES",
+  "run_id": "ba98498c642c6b4b_4b14dded",
+  "generated_at": "2026-09-16T14:54:47.491948+00:00",
+  "dataset_manifest": {
+    "project": "INVINCIBLES",
+    "generated_at": "2026-09-16T14:52:05.972132+00:00",
+    "reference_sensor": "OHRC",
+    "reference_locked": true,
+    "region_scope": "single-region (reusable engine)",
+    "sensors": {
+      "OHRC": {
+        "role": "REFERENCE",
+        "sensor_full_name": "Orbiter High Resolution Camera",
+        "kind": "continuous",
+        "file": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\OHRC.png",
+        "sha256": "93ddd72a8540b0ed735fcfd4310e771dc383f30050255d5aa8c91ae5ab11b65c",
+        "stats": {
+          "sensor": "OHRC",
+          "filename": "OHRC.png",
+          "source_path": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\OHRC.png",
+          "width": 621,
+          "height": 730,
+          "channels": 4,
+          "dtype": "uint8",
+          "min": 3.0,
+          "max": 246.0,
+          "mean": 100.62459797498511,
+          "std": 44.26882284449499,
+          "median": 101.0,
+          "percentile_1": 19.0,
+          "percentile_5": 34.0,
+          "percentile_95": 177.0,
+          "percentile_99": 203.0,
+          "dynamic_range": 243.0,
+          "histogram_32bin": [
+            1.5441290009485363e-05,
+            0.00035735556879094697,
+            0.02972007147111376,
+            0.01366774755696733,
+            0.024745770189486687,
+            0.036712769946837844,
+            0.04980036617916308,
+            0.06813579511614055,
+            0.10398605872102001,
+            0.07145126067103434,
+            0.044993713189067565,
+            0.03161714424370767,
+            0.036542915756733504,
+            0.06674166721814132,
+            0.07717556746740785,
+            0.06078574107162553,
+            0.0540952507003728,
+            0.04774667460790153,
+            0.04190324928859771,
+            0.032949506981668986,
+            0.027375201288244767,
+            0.024964154148192266,
+            0.018518518518518517,
+            0.014351576114530255,
+            0.009017713365539453,
+            0.005761807072110824,
+            0.003928705358127634,
+            0.002108839035581144,
+            0.0007014757461451922,
+            0.00011911852293031566,
+            8.823594291134494e-06,
+            0.0
+          ],
+          "estimated_noise_sigma": 0.5710643241706056,
+          "approx_feature_density_per_10k_px": 8.757417333950986,
+          "has_nan_or_inf": false,
+          "orientation": "portrait",
+          "aspect_ratio": 0.8506849315068493,
+          "visual_contrast_std_over_mean": 0.43994036543191645,
+          "saturated_high_fraction": 0.0,
+          "saturated_low_fraction": 0.0
+        }
+      },
+      "TMC-Azimuth": {
+        "role": "SOURCE",
+        "sensor_full_name": "Terrain Mapping Camera (Azimuth product)",
+        "kind": "derived_terrain",
+        "file": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\TMC-Azimuth.png",
+        "sha256": "353c4a962a0dd4ede5ef5e4c34a6758691e1f11a3ab1d8945430a995a892d3ef",
+        "stats": {
+          "sensor": "TMC-Azimuth",
+          "filename": "TMC-Azimuth.png",
+          "source_path": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\TMC-Azimuth.png",
+          "width": 620,
+          "height": 730,
+          "channels": 4,
+          "dtype": "uint8",
+          "min": 0.0,
+          "max": 255.0,
+          "mean": 128.3414030048608,
+          "std": 72.6941650342344,
+          "median": 131.0,
+          "percentile_1": 3.0,
+          "percentile_5": 14.0,
+          "percentile_95": 241.0,
+          "percentile_99": 252.0,
+          "dynamic_range": 255.0,
+          "histogram_32bin": [
+            0.024255413168360582,
+            0.03368095448519664,
+            0.03238400353513036,
+            0.029125055236411842,
+            0.038685373398144055,
+            0.036471498011489176,
+            0.02942333186036235,
+            0.01954485196641626,
+            0.027830313742819267,
+            0.025755634114007955,
+            0.022576226248342907,
+            0.030519222271321256,
+            0.03196199734865223,
+            0.03268448961555458,
+            0.039639858594785686,
+            0.03058329650905877,
+            0.029566946531153337,
+            0.03933495360141405,
+            0.03880468404772426,
+            0.03756517896597437,
+            0.03347989394608926,
+            0.031064958020327,
+            0.03676535572249227,
+            0.0366261599646487,
+            0.025181175430844013,
+            0.023013698630136987,
+            0.027072470172337604,
+            0.030797613787008397,
+            0.03453822359699514,
+            0.032870083959346,
+            0.031100309323906318,
+            0.027096774193548386
+          ],
+          "estimated_noise_sigma": 0.7694005446537269,
+          "approx_feature_density_per_10k_px": 24.436588599204594,
+          "has_nan_or_inf": false,
+          "orientation": "portrait",
+          "aspect_ratio": 0.8493150684931506,
+          "visual_contrast_std_over_mean": 0.5664124184856291,
+          "saturated_high_fraction": 0.019036676977463543,
+          "saturated_low_fraction": 0.007578435704816615,
+          "unique_value_count": 256,
+          "behaves_as_categorical": false
+        }
+      },
+      "TMC-Slope": {
+        "role": "SOURCE",
+        "sensor_full_name": "Terrain Mapping Camera (Slope product)",
+        "kind": "derived_terrain",
+        "file": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\TMC-Slope.png",
+        "sha256": "d23075bbaa1f6ef5f83e81f8ce34293d8f7cd0c114ac3ffb1591b6a7b6e2ee11",
+        "stats": {
+          "sensor": "TMC-Slope",
+          "filename": "TMC-Slope.png",
+          "source_path": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\TMC-Slope.png",
+          "width": 627,
+          "height": 730,
+          "channels": 4,
+          "dtype": "uint8",
+          "min": 41.0,
+          "max": 255.0,
+          "mean": 130.63278058159096,
+          "std": 66.48860402001442,
+          "median": 110.0,
+          "percentile_1": 43.0,
+          "percentile_5": 47.0,
+          "percentile_95": 223.0,
+          "percentile_99": 225.0,
+          "dynamic_range": 214.0,
+          "histogram_32bin": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.05083568198204103,
+            0.08146424591990561,
+            0.07747700509055952,
+            0.0818509536606148,
+            0.06451683380306307,
+            0.045478578138996306,
+            0.037156714950514515,
+            0.03354307312490441,
+            0.036263136046841886,
+            0.025022394092329203,
+            0.018568525922527366,
+            0.008629918507351817,
+            0.007126783334425728,
+            0.009565008411439558,
+            0.007961372921718992,
+            0.01402853335081165,
+            0.01703917327565489,
+            0.028469991916278865,
+            0.03221690590111643,
+            0.04119202114876232,
+            0.0672128640405497,
+            0.0717113456118503,
+            0.10320290140045006,
+            0.039313102182604705,
+            0.0,
+            2.1847894955321056e-05,
+            0.00013108736973192634
+          ],
+          "estimated_noise_sigma": 0.5102071989923194,
+          "approx_feature_density_per_10k_px": 19.400930720325096,
+          "has_nan_or_inf": false,
+          "orientation": "portrait",
+          "aspect_ratio": 0.8589041095890411,
+          "visual_contrast_std_over_mean": 0.508973346621168,
+          "saturated_high_fraction": 0.00013108736973192634,
+          "saturated_low_fraction": 0.0,
+          "unique_value_count": 193,
+          "behaves_as_categorical": false
+        }
+      },
+      "IIRS": {
+        "role": "SOURCE",
+        "sensor_full_name": "Imaging Infrared Spectrometer",
+        "kind": "continuous",
+        "file": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\IIRS.png",
+        "sha256": "42b1707c36b3b73f099ed772b942d41c2f58ef026d19ecc8d23881dda1e6163d",
+        "stats": {
+          "sensor": "IIRS",
+          "filename": "IIRS.png",
+          "source_path": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\IIRS.png",
+          "width": 593,
+          "height": 730,
+          "channels": 4,
+          "dtype": "uint8",
+          "min": 36.0,
+          "max": 158.0,
+          "mean": 85.39573563722885,
+          "std": 22.21172589498931,
+          "median": 86.0,
+          "percentile_1": 44.0,
+          "percentile_5": 52.0,
+          "percentile_95": 124.0,
+          "percentile_99": 137.0,
+          "dynamic_range": 122.0,
+          "histogram_32bin": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            7.623183718727622e-05,
+            0.034546882579870174,
+            0.04202915290258495,
+            0.08643304303633717,
+            0.17739148513479175,
+            0.10610778719767146,
+            0.07510453001917346,
+            0.1456929011989189,
+            0.11164268058860219,
+            0.08612118552057105,
+            0.058911039756058124,
+            0.04243341264524475,
+            0.021989419945020676,
+            0.009170921019196563,
+            0.0022730947815842364,
+            7.623183718727622e-05,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "estimated_noise_sigma": 0.3840781185455366,
+          "approx_feature_density_per_10k_px": 0.2772066806810044,
+          "has_nan_or_inf": false,
+          "orientation": "portrait",
+          "aspect_ratio": 0.8123287671232877,
+          "visual_contrast_std_over_mean": 0.26010345211198704,
+          "saturated_high_fraction": 0.0,
+          "saturated_low_fraction": 0.0
+        }
+      },
+      "SAR": {
+        "role": "SOURCE",
+        "sensor_full_name": "Synthetic Aperture Radar",
+        "kind": "continuous_speckled",
+        "file": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\SAR.png",
+        "sha256": "d69f9e5016f70db085235516b4d5a2a78907fdf83f98df59401a122a43546f99",
+        "stats": {
+          "sensor": "SAR",
+          "filename": "SAR.png",
+          "source_path": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\data\\raw\\SAR.png",
+          "width": 630,
+          "height": 730,
+          "channels": 4,
+          "dtype": "uint8",
+          "min": 16.0,
+          "max": 232.0,
+          "mean": 108.53954120460969,
+          "std": 35.68692037743864,
+          "median": 104.0,
+          "percentile_1": 40.0,
+          "percentile_5": 59.0,
+          "percentile_95": 178.0,
+          "percentile_99": 200.0,
+          "dynamic_range": 216.0,
+          "histogram_32bin": [
+            0.0,
+            0.0,
+            0.0001456838443139813,
+            0.0012937595129375952,
+            0.007131985214176995,
+            0.015066318764948902,
+            0.015290280495759949,
+            0.03150467492933246,
+            0.05797347249402044,
+            0.08515329419439009,
+            0.08395303326810176,
+            0.09547945205479452,
+            0.10657534246575343,
+            0.10705588171341596,
+            0.08686888454011742,
+            0.05646227440747989,
+            0.04035877364644488,
+            0.03345727332028702,
+            0.031754729288975866,
+            0.0318895412046097,
+            0.0305001087192868,
+            0.024042183083278972,
+            0.021839530332681018,
+            0.015322896281800391,
+            0.010474016090454447,
+            0.006673189823874755,
+            0.0030071754729288974,
+            0.0005870841487279843,
+            0.000136986301369863,
+            2.174385736029572e-06,
+            0.0,
+            0.0
+          ],
+          "estimated_noise_sigma": 0.5333423907786874,
+          "approx_feature_density_per_10k_px": 2.717982170036964,
+          "has_nan_or_inf": false,
+          "orientation": "portrait",
+          "aspect_ratio": 0.863013698630137,
+          "visual_contrast_std_over_mean": 0.3287918822263377,
+          "saturated_high_fraction": 0.0,
+          "saturated_low_fraction": 0.0,
+          "speckle_index_mean_cv": 0.04714177375054324
+        }
+      }
+    }
+  },
+  "readiness_report": {
+    "OHRC": true,
+    "TMC-Azimuth": true,
+    "TMC-Slope": true,
+    "IIRS": true,
+    "SAR": true,
+    "phase_congruency_feasible": true,
+    "rift_feasible": true,
+    "fsc_gtm_feasible": true,
+    "subpixel_feasible": true,
+    "multiband_output_feasible": true
+  },
+  "sensor_results": {
+    "TMC-Azimuth": {
+      "status": "SUCCESS",
+      "sensor": "TMC-Azimuth",
+      "processing_time_sec": 58.09339237213135,
+      "preprocessing_method": "No photometric alteration of semantic terrain values; mild CLAHE(clip=1.5) applied ONLY to a separate feature-extraction view",
+      "correspondence_method": "dense_area_based_fallback (MUTUAL_INFORMATION_POWELL, quality=0.730)",
+      "descriptor_method": "RIFT",
+      "descriptor_deviation_reason": null,
+      "area_based_fallback": {
+        "method": "MUTUAL_INFORMATION_POWELL",
+        "quality": 0.7296847110512821,
+        "notes": "No ECC attempt reached the 0.15 correlation-coefficient threshold; used the best Mutual-Information Powell search result, from the 'coarse_phase_congruency' seed (final MI=0.730) | multi-start audit trail: [{'seed': 'coarse_phase_congruency', 'method': 'ECC_GRADIENT_EUCLIDEAN', 'quality': None, 'error': 'did not converge'}, {'seed': 'coarse_phase_congruency', 'method': 'ECC_GRADIENT_AFFINE', 'quality': None, 'error': 'did not converge'}, {'seed': 'coarse_phase_congruency', 'method': 'MUTUAL_INFORMATION_POWELL', 'quality': 0.7296847110512821}, {'seed': 'identity', 'method': 'ECC_GRADIENT_EUCLIDEAN', 'quality': None, 'error': 'did not converge'}, {'seed': 'identity', 'method': 'ECC_GRADIENT_AFFINE', 'quality': None, 'error': 'did not converge'}, {'seed': 'identity', 'method': 'MUTUAL_INFORMATION_POWELL', 'quality': 0.7296847110512821}]",
+        "ncc_threshold_used": 0.5,
+        "n_correspondences": 32,
+        "mean_ncc_score": 0.5656990613788366
+      },
+      "coarse_alignment": {
+        "scale": null,
+        "rotation_deg": null,
+        "tx": null,
+        "ty": null,
+        "phase_correlation_confidence": 0.0,
+        "error": "module 'cv2' has no attribute 'logPolar'"
+      },
+      "sensor_evidence_description": "Terrain-direction (sun-azimuth-relative slope orientation) structural information.",
+      "keypoint_grid_distribution": {
+        "reference": {
+          "grid_size": 8,
+          "counts": [
+            [
+              12,
+              8,
+              7,
+              13,
+              11,
+              15,
+              6,
+              12
+            ],
+            [
+              11,
+              11,
+              9,
+              8,
+              7,
+              10,
+              9,
+              8
+            ],
+            [
+              16,
+              8,
+              12,
+              5,
+              6,
+              5,
+              9,
+              15
+            ],
+            [
+              13,
+              6,
+              8,
+              9,
+              10,
+              4,
+              6,
+              9
+            ],
+            [
+              13,
+              3,
+              8,
+              11,
+              8,
+              6,
+              7,
+              15
+            ],
+            [
+              16,
+              7,
+              6,
+              6,
+              9,
+              9,
+              7,
+              10
+            ],
+            [
+              7,
+              12,
+              13,
+              17,
+              6,
+              12,
+              9,
+              7
+            ],
+            [
+              8,
+              8,
+              7,
+              12,
+              13,
+              10,
+              11,
+              9
+            ]
+          ],
+          "min_cell_count": 3,
+          "max_cell_count": 17,
+          "mean_cell_count": 9.375,
+          "std_cell_count": 3.125,
+          "coverage_percentage": 100.0,
+          "empty_cell_percentage": 0.0
+        },
+        "source": {
+          "grid_size": 8,
+          "counts": [
+            [
+              13,
+              10,
+              12,
+              9,
+              11,
+              9,
+              10,
+              14
+            ],
+            [
+              12,
+              8,
+              8,
+              13,
+              9,
+              11,
+              9,
+              16
+            ],
+            [
+              12,
+              5,
+              5,
+              8,
+              9,
+              10,
+              6,
+              11
+            ],
+            [
+              10,
+              4,
+              6,
+              8,
+              7,
+              11,
+              6,
+              10
+            ],
+            [
+              9,
+              11,
+              6,
+              6,
+              6,
+              5,
+              7,
+              10
+            ],
+            [
+              11,
+              8,
+              1,
+              6,
+              6,
+              9,
+              11,
+              6
+            ],
+            [
+              9,
+              8,
+              11,
+              5,
+              6,
+              9,
+              9,
+              6
+            ],
+            [
+              17,
+              21,
+              16,
+              12,
+              14,
+              9,
+              14,
+              14
+            ]
+          ],
+          "min_cell_count": 1,
+          "max_cell_count": 21,
+          "mean_cell_count": 9.375,
+          "std_cell_count": 3.466356155965512,
+          "coverage_percentage": 100.0,
+          "empty_cell_percentage": 0.0
+        },
+        "inliers": {
+          "grid_size": 8,
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              7,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "min_cell_count": 0,
+          "max_cell_count": 7,
+          "mean_cell_count": 0.21875,
+          "std_cell_count": 1.2179484543690673,
+          "coverage_percentage": 3.125,
+          "empty_cell_percentage": 96.875
+        }
+      },
+      "local_refinement": {
+        "used": false,
+        "residual_coefficient_of_variation": 0.3405083503876354
+      },
+      "metrics": {
+        "n_keypoints_reference": 600,
+        "n_keypoints_source": 600,
+        "n_keypoints": 1200,
+        "n_candidate_matches": 32,
+        "n_accepted_matches": 32,
+        "n_fit_points": 24,
+        "n_checkpoint_points": 8,
+        "n_inliers": 14,
+        "n_total_fit": 24,
+        "inlier_ratio": 0.5833333333333334,
+        "transformation_model": "similarity",
+        "transformation_matrix": [
+          [
+            0.9811348908036538,
+            0.06912359041719471,
+            -21.462178711023373
+          ],
+          [
+            -0.06912359041719471,
+            0.9811348908036538,
+            19.748329594775967
+          ]
+        ],
+        "model_selection_justification": "similarity RMS=0.842px; affine did not improve residuals enough to justify added complexity over similarity",
+        "checkpoint_rmse_before_refinement": 11.567112449515474,
+        "checkpoint_rmse_after_local_refinement": 11.567112449515474,
+        "checkpoint_rmse_final": 11.567112449515474,
+        "checkpoint_rmse_improvement_px": 0.0,
+        "valid_pixel_fraction": 0.9454834226722255
+      },
+      "confidence": {
+        "level": "MEDIUM",
+        "score": 2,
+        "max_score": 5,
+        "factors": [
+          [
+            "PASS",
+            "inlier ratio 58.33% >= 35%"
+          ],
+          [
+            "WEAK",
+            "only 14 reliable inliers"
+          ],
+          [
+            "WEAK",
+            "independent checkpoint RMSE 11.57px > 2.5px"
+          ],
+          [
+            "WEAK",
+            "spatial coverage 3.1% of grid cells < 50%"
+          ],
+          [
+            "PASS",
+            "refinement stages did not increase error (residuals stable or improved)"
+          ]
+        ]
+      },
+      "diagnostics_dir": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded\\diagnostics\\TMC-Azimuth",
+      "matches_dir": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded\\matches"
+    },
+    "TMC-Slope": {
+      "status": "SUCCESS",
+      "sensor": "TMC-Slope",
+      "processing_time_sec": 59.27540993690491,
+      "preprocessing_method": "No photometric alteration of semantic terrain values; mild CLAHE(clip=1.5) applied ONLY to a separate feature-extraction view",
+      "correspondence_method": "dense_area_based_fallback (ECC_GRADIENT_AFFINE, quality=0.203)",
+      "descriptor_method": "RIFT",
+      "descriptor_deviation_reason": null,
+      "area_based_fallback": {
+        "method": "ECC_GRADIENT_AFFINE",
+        "quality": 0.20311575539584878,
+        "notes": "ECC on gradient-magnitude maps converged from the 'coarse_phase_congruency' seed (correlation coefficient=0.203, best of 4 qualifying ECC attempts across 2 seeds) | multi-start audit trail: [{'seed': 'coarse_phase_congruency', 'method': 'ECC_GRADIENT_EUCLIDEAN', 'quality': 0.19571399180091295}, {'seed': 'coarse_phase_congruency', 'method': 'ECC_GRADIENT_AFFINE', 'quality': 0.20311575539584878}, {'seed': 'coarse_phase_congruency', 'method': 'MUTUAL_INFORMATION_POWELL', 'quality': 0.3132379773924665}, {'seed': 'identity', 'method': 'ECC_GRADIENT_EUCLIDEAN', 'quality': 0.19571399180091295}, {'seed': 'identity', 'method': 'ECC_GRADIENT_AFFINE', 'quality': 0.20311575539584878}, {'seed': 'identity', 'method': 'MUTUAL_INFORMATION_POWELL', 'quality': 0.3132379773924665}]",
+        "ncc_threshold_used": 0.5,
+        "n_correspondences": 50,
+        "mean_ncc_score": 0.5556454944610596
+      },
+      "coarse_alignment": {
+        "scale": null,
+        "rotation_deg": null,
+        "tx": null,
+        "ty": null,
+        "phase_correlation_confidence": 0.0,
+        "error": "module 'cv2' has no attribute 'logPolar'"
+      },
+      "sensor_evidence_description": "Slope-magnitude derived terrain structural information.",
+      "keypoint_grid_distribution": {
+        "reference": {
+          "grid_size": 8,
+          "counts": [
+            [
+              12,
+              8,
+              7,
+              13,
+              11,
+              15,
+              6,
+              12
+            ],
+            [
+              11,
+              11,
+              9,
+              8,
+              7,
+              10,
+              9,
+              8
+            ],
+            [
+              16,
+              8,
+              12,
+              5,
+              6,
+              5,
+              9,
+              15
+            ],
+            [
+              13,
+              6,
+              8,
+              9,
+              10,
+              4,
+              6,
+              9
+            ],
+            [
+              13,
+              3,
+              8,
+              11,
+              8,
+              6,
+              7,
+              15
+            ],
+            [
+              16,
+              7,
+              6,
+              6,
+              9,
+              9,
+              7,
+              10
+            ],
+            [
+              7,
+              12,
+              13,
+              17,
+              6,
+              12,
+              9,
+              7
+            ],
+            [
+              8,
+              8,
+              7,
+              12,
+              13,
+              10,
+              11,
+              9
+            ]
+          ],
+          "min_cell_count": 3,
+          "max_cell_count": 17,
+          "mean_cell_count": 9.375,
+          "std_cell_count": 3.125,
+          "coverage_percentage": 100.0,
+          "empty_cell_percentage": 0.0
+        },
+        "source": {
+          "grid_size": 8,
+          "counts": [
+            [
+              10,
+              8,
+              9,
+              10,
+              7,
+              9,
+              8,
+              10
+            ],
+            [
+              6,
+              8,
+              10,
+              9,
+              8,
+              7,
+              5,
+              12
+            ],
+            [
+              5,
+              7,
+              10,
+              12,
+              19,
+              10,
+              4,
+              10
+            ],
+            [
+              14,
+              11,
+              13,
+              9,
+              7,
+              13,
+              14,
+              6
+            ],
+            [
+              9,
+              9,
+              7,
+              8,
+              12,
+              13,
+              14,
+              9
+            ],
+            [
+              9,
+              8,
+              5,
+              11,
+              8,
+              8,
+              9,
+              11
+            ],
+            [
+              14,
+              12,
+              12,
+              6,
+              9,
+              9,
+              11,
+              11
+            ],
+            [
+              13,
+              8,
+              6,
+              10,
+              7,
+              7,
+              8,
+              7
+            ]
+          ],
+          "min_cell_count": 4,
+          "max_cell_count": 19,
+          "mean_cell_count": 9.375,
+          "std_cell_count": 2.7357585785299112,
+          "coverage_percentage": 100.0,
+          "empty_cell_percentage": 0.0
+        },
+        "inliers": {
+          "grid_size": 8,
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              1,
+              4,
+              0,
+              2,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "min_cell_count": 0,
+          "max_cell_count": 5,
+          "mean_cell_count": 0.359375,
+          "std_cell_count": 1.0363274624244019,
+          "coverage_percentage": 14.0625,
+          "empty_cell_percentage": 85.9375
+        }
+      },
+      "local_refinement": {
+        "used": true,
+        "residual_coefficient_of_variation": 0.4088767078302918
+      },
+      "metrics": {
+        "n_keypoints_reference": 600,
+        "n_keypoints_source": 600,
+        "n_keypoints": 1200,
+        "n_candidate_matches": 50,
+        "n_accepted_matches": 50,
+        "n_fit_points": 38,
+        "n_checkpoint_points": 12,
+        "n_inliers": 23,
+        "n_total_fit": 38,
+        "inlier_ratio": 0.6052631578947368,
+        "transformation_model": "affine",
+        "transformation_matrix": [
+          [
+            1.0067153233042125,
+            0.06304222428832715,
+            -34.73605172868825
+          ],
+          [
+            0.02061810167101452,
+            1.060365919146519,
+            -23.028569451443893
+          ]
+        ],
+        "model_selection_justification": "similarity RMS=3.330px; affine RMS=2.672px improves >15% over similarity -> affine justified; homography did not improve residuals enough to justify added complexity",
+        "checkpoint_rmse_before_refinement": 12.414175008459035,
+        "checkpoint_rmse_after_local_refinement": 11.712701689047451,
+        "checkpoint_rmse_final": 12.010830051345568,
+        "checkpoint_rmse_improvement_px": 0.4033449571134664,
+        "valid_pixel_fraction": 0.9874947609908896
+      },
+      "confidence": {
+        "level": "MEDIUM",
+        "score": 3,
+        "max_score": 5,
+        "factors": [
+          [
+            "PASS",
+            "inlier ratio 60.53% >= 35%"
+          ],
+          [
+            "PASS",
+            "23 reliable inliers (>=20)"
+          ],
+          [
+            "WEAK",
+            "independent checkpoint RMSE 12.01px > 2.5px"
+          ],
+          [
+            "WEAK",
+            "spatial coverage 14.1% of grid cells < 50%"
+          ],
+          [
+            "PASS",
+            "refinement stages did not increase error (residuals stable or improved)"
+          ]
+        ]
+      },
+      "diagnostics_dir": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded\\diagnostics\\TMC-Slope",
+      "matches_dir": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded\\matches"
+    },
+    "IIRS": {
+      "status": "SUCCESS",
+      "sensor": "IIRS",
+      "processing_time_sec": 21.52798366546631,
+      "preprocessing_method": "Local-contrast normalization via CLAHE(clip=3.0) on denoised IIRS view; original spectral values preserved separately",
+      "correspondence_method": "sparse_descriptor_matching (RIFT)",
+      "descriptor_method": "RIFT",
+      "descriptor_deviation_reason": null,
+      "area_based_fallback": null,
+      "coarse_alignment": {
+        "scale": null,
+        "rotation_deg": null,
+        "tx": null,
+        "ty": null,
+        "phase_correlation_confidence": 0.0,
+        "error": "module 'cv2' has no attribute 'logPolar'"
+      },
+      "sensor_evidence_description": "Spectral-band brightness structural information (no compositional interpretation).",
+      "keypoint_grid_distribution": {
+        "reference": {
+          "grid_size": 8,
+          "counts": [
+            [
+              12,
+              8,
+              7,
+              13,
+              11,
+              15,
+              6,
+              12
+            ],
+            [
+              11,
+              11,
+              9,
+              8,
+              7,
+              10,
+              9,
+              8
+            ],
+            [
+              16,
+              8,
+              12,
+              5,
+              6,
+              5,
+              9,
+              15
+            ],
+            [
+              13,
+              6,
+              8,
+              9,
+              10,
+              4,
+              6,
+              9
+            ],
+            [
+              13,
+              3,
+              8,
+              11,
+              8,
+              6,
+              7,
+              15
+            ],
+            [
+              16,
+              7,
+              6,
+              6,
+              9,
+              9,
+              7,
+              10
+            ],
+            [
+              7,
+              12,
+              13,
+              17,
+              6,
+              12,
+              9,
+              7
+            ],
+            [
+              8,
+              8,
+              7,
+              12,
+              13,
+              10,
+              11,
+              9
+            ]
+          ],
+          "min_cell_count": 3,
+          "max_cell_count": 17,
+          "mean_cell_count": 9.375,
+          "std_cell_count": 3.125,
+          "coverage_percentage": 100.0,
+          "empty_cell_percentage": 0.0
+        },
+        "source": {
+          "grid_size": 8,
+          "counts": [
+            [
+              12,
+              10,
+              8,
+              12,
+              9,
+              14,
+              10,
+              10
+            ],
+            [
+              11,
+              9,
+              13,
+              13,
+              9,
+              9,
+              12,
+              7
+            ],
+            [
+              11,
+              9,
+              12,
+              11,
+              7,
+              6,
+              8,
+              9
+            ],
+            [
+              7,
+              8,
+              8,
+              11,
+              8,
+              8,
+              6,
+              11
+            ],
+            [
+              10,
+              6,
+              8,
+              20,
+              11,
+              8,
+              13,
+              7
+            ],
+            [
+              8,
+              6,
+              6,
+              5,
+              9,
+              11,
+              5,
+              10
+            ],
+            [
+              10,
+              6,
+              12,
+              7,
+              10,
+              10,
+              8,
+              8
+            ],
+            [
+              13,
+              5,
+              9,
+              5,
+              15,
+              9,
+              13,
+              9
+            ]
+          ],
+          "min_cell_count": 5,
+          "max_cell_count": 20,
+          "mean_cell_count": 9.375,
+          "std_cell_count": 2.747157621979489,
+          "coverage_percentage": 100.0,
+          "empty_cell_percentage": 0.0
+        },
+        "inliers": {
+          "grid_size": 8,
+          "counts": [
+            [
+              1,
+              2,
+              1,
+              1,
+              2,
+              3,
+              1,
+              0
+            ],
+            [
+              2,
+              4,
+              1,
+              5,
+              0,
+              4,
+              2,
+              0
+            ],
+            [
+              0,
+              2,
+              5,
+              0,
+              0,
+              4,
+              2,
+              0
+            ],
+            [
+              2,
+              3,
+              3,
+              2,
+              3,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              3,
+              1,
+              1,
+              2,
+              5,
+              0
+            ],
+            [
+              0,
+              1,
+              3,
+              0,
+              3,
+              1,
+              1,
+              2
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              1,
+              2,
+              3,
+              0
+            ],
+            [
+              0,
+              1,
+              2,
+              4,
+              1,
+              2,
+              1,
+              0
+            ]
+          ],
+          "min_cell_count": 0,
+          "max_cell_count": 5,
+          "mean_cell_count": 1.609375,
+          "std_cell_count": 1.3876372398343164,
+          "coverage_percentage": 75.0,
+          "empty_cell_percentage": 25.0
+        }
+      },
+      "local_refinement": {
+        "used": true,
+        "residual_coefficient_of_variation": 0.4181726945686494
+      },
+      "metrics": {
+        "n_keypoints_reference": 600,
+        "n_keypoints_source": 600,
+        "n_keypoints": 1200,
+        "n_candidate_matches": 181,
+        "n_accepted_matches": 145,
+        "n_fit_points": 109,
+        "n_checkpoint_points": 36,
+        "n_inliers": 103,
+        "n_total_fit": 109,
+        "inlier_ratio": 0.944954128440367,
+        "transformation_model": "similarity",
+        "transformation_matrix": [
+          [
+            0.9994122749144924,
+            0.0005829735710342235,
+            11.8761258266268
+          ],
+          [
+            -0.0005829735710342235,
+            0.9994122749144924,
+            0.3650290615760815
+          ]
+        ],
+        "model_selection_justification": "similarity RMS=2.398px; affine did not improve residuals enough to justify added complexity over similarity",
+        "checkpoint_rmse_before_refinement": 3.1109411253191794,
+        "checkpoint_rmse_after_local_refinement": 3.4043098751801537,
+        "checkpoint_rmse_final": 4.144234502497084,
+        "checkpoint_rmse_improvement_px": -1.0332933771779045,
+        "valid_pixel_fraction": 0.9549114331723028
+      },
+      "confidence": {
+        "level": "MEDIUM",
+        "score": 3,
+        "max_score": 5,
+        "factors": [
+          [
+            "PASS",
+            "inlier ratio 94.50% >= 35%"
+          ],
+          [
+            "PASS",
+            "103 reliable inliers (>=20)"
+          ],
+          [
+            "WEAK",
+            "independent checkpoint RMSE 4.14px > 2.5px"
+          ],
+          [
+            "PASS",
+            "spatial coverage 75.0% of grid cells >= 50%"
+          ],
+          [
+            "WEAK",
+            "refinement stages did not demonstrably improve residual error"
+          ]
+        ]
+      },
+      "diagnostics_dir": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded\\diagnostics\\IIRS",
+      "matches_dir": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded\\matches"
+    },
+    "SAR": {
+      "status": "SUCCESS",
+      "sensor": "SAR",
+      "processing_time_sec": 22.451764345169067,
+      "preprocessing_method": "Bilateral denoise (measured speckle CV=0.047 <= 0.35 threshold; Lee filter unnecessary)",
+      "correspondence_method": "sparse_descriptor_matching (RIFT)",
+      "descriptor_method": "RIFT",
+      "descriptor_deviation_reason": null,
+      "area_based_fallback": null,
+      "coarse_alignment": {
+        "scale": null,
+        "rotation_deg": null,
+        "tx": null,
+        "ty": null,
+        "phase_correlation_confidence": 0.0,
+        "error": "module 'cv2' has no attribute 'logPolar'"
+      },
+      "sensor_evidence_description": "Radar backscatter structural information, robust to solar illumination.",
+      "keypoint_grid_distribution": {
+        "reference": {
+          "grid_size": 8,
+          "counts": [
+            [
+              12,
+              8,
+              7,
+              13,
+              11,
+              15,
+              6,
+              12
+            ],
+            [
+              11,
+              11,
+              9,
+              8,
+              7,
+              10,
+              9,
+              8
+            ],
+            [
+              16,
+              8,
+              12,
+              5,
+              6,
+              5,
+              9,
+              15
+            ],
+            [
+              13,
+              6,
+              8,
+              9,
+              10,
+              4,
+              6,
+              9
+            ],
+            [
+              13,
+              3,
+              8,
+              11,
+              8,
+              6,
+              7,
+              15
+            ],
+            [
+              16,
+              7,
+              6,
+              6,
+              9,
+              9,
+              7,
+              10
+            ],
+            [
+              7,
+              12,
+              13,
+              17,
+              6,
+              12,
+              9,
+              7
+            ],
+            [
+              8,
+              8,
+              7,
+              12,
+              13,
+              10,
+              11,
+              9
+            ]
+          ],
+          "min_cell_count": 3,
+          "max_cell_count": 17,
+          "mean_cell_count": 9.375,
+          "std_cell_count": 3.125,
+          "coverage_percentage": 100.0,
+          "empty_cell_percentage": 0.0
+        },
+        "source": {
+          "grid_size": 8,
+          "counts": [
+            [
+              8,
+              7,
+              8,
+              12,
+              11,
+              11,
+              6,
+              6
+            ],
+            [
+              11,
+              11,
+              12,
+              5,
+              11,
+              12,
+              14,
+              9
+            ],
+            [
+              11,
+              8,
+              10,
+              7,
+              7,
+              10,
+              8,
+              9
+            ],
+            [
+              8,
+              6,
+              10,
+              7,
+              7,
+              9,
+              7,
+              15
+            ],
+            [
+              12,
+              8,
+              10,
+              9,
+              6,
+              9,
+              6,
+              14
+            ],
+            [
+              12,
+              9,
+              8,
+              11,
+              8,
+              8,
+              9,
+              8
+            ],
+            [
+              13,
+              6,
+              11,
+              12,
+              8,
+              9,
+              9,
+              20
+            ],
+            [
+              10,
+              12,
+              12,
+              6,
+              10,
+              6,
+              9,
+              7
+            ]
+          ],
+          "min_cell_count": 5,
+          "max_cell_count": 20,
+          "mean_cell_count": 9.375,
+          "std_cell_count": 2.6545950726994127,
+          "coverage_percentage": 100.0,
+          "empty_cell_percentage": 0.0
+        },
+        "inliers": {
+          "grid_size": 8,
+          "counts": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              2,
+              2,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "min_cell_count": 0,
+          "max_cell_count": 2,
+          "mean_cell_count": 0.359375,
+          "std_cell_count": 0.5960072225862704,
+          "coverage_percentage": 29.6875,
+          "empty_cell_percentage": 70.3125
+        }
+      },
+      "local_refinement": {
+        "used": true,
+        "residual_coefficient_of_variation": 0.4244089149385436
+      },
+      "metrics": {
+        "n_keypoints_reference": 600,
+        "n_keypoints_source": 600,
+        "n_keypoints": 1200,
+        "n_candidate_matches": 46,
+        "n_accepted_matches": 35,
+        "n_fit_points": 26,
+        "n_checkpoint_points": 9,
+        "n_inliers": 23,
+        "n_total_fit": 26,
+        "inlier_ratio": 0.8846153846153846,
+        "transformation_model": "similarity",
+        "transformation_matrix": [
+          [
+            0.9960883141631431,
+            -0.002484558852298928,
+            1.9431284086589058
+          ],
+          [
+            0.002484558852298928,
+            0.9960883141631431,
+            -0.08243448147449654
+          ]
+        ],
+        "model_selection_justification": "similarity RMS=3.563px; affine did not improve residuals enough to justify added complexity over similarity",
+        "checkpoint_rmse_before_refinement": 3.650457258558832,
+        "checkpoint_rmse_after_local_refinement": 3.773639945760606,
+        "checkpoint_rmse_final": 4.669966743657489,
+        "checkpoint_rmse_improvement_px": -1.019509485098657,
+        "valid_pixel_fraction": 0.9944477532923036
+      },
+      "confidence": {
+        "level": "MEDIUM",
+        "score": 2,
+        "max_score": 5,
+        "factors": [
+          [
+            "PASS",
+            "inlier ratio 88.46% >= 35%"
+          ],
+          [
+            "PASS",
+            "23 reliable inliers (>=20)"
+          ],
+          [
+            "WEAK",
+            "independent checkpoint RMSE 4.67px > 2.5px"
+          ],
+          [
+            "WEAK",
+            "spatial coverage 29.7% of grid cells < 50%"
+          ],
+          [
+            "WEAK",
+            "refinement stages did not demonstrably improve residual error"
+          ]
+        ]
+      },
+      "diagnostics_dir": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded\\diagnostics\\SAR",
+      "matches_dir": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded\\matches"
+    }
+  },
+  "fusion_output": {
+    "npz_path": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded\\multiband.npz",
+    "metadata": {
+      "reference_sensor": "OHRC",
+      "layers": {
+        "OHRC": {
+          "role": "REFERENCE",
+          "interpolation": "n/a (reference)",
+          "dtype": "uint8",
+          "shape": [
+            730,
+            621,
+            4
+          ],
+          "valid_pixel_fraction": 1.0
+        },
+        "TMC-Azimuth": {
+          "role": "SOURCE",
+          "interpolation": "nearest",
+          "dtype": "uint8",
+          "shape": [
+            730,
+            621
+          ],
+          "valid_pixel_fraction": 0.9454834226722255
+        },
+        "TMC-Slope": {
+          "role": "SOURCE",
+          "interpolation": "nearest",
+          "dtype": "uint8",
+          "shape": [
+            730,
+            621
+          ],
+          "valid_pixel_fraction": 0.9874947609908896
+        },
+        "IIRS": {
+          "role": "SOURCE",
+          "interpolation": "bicubic",
+          "dtype": "uint8",
+          "shape": [
+            730,
+            621
+          ],
+          "valid_pixel_fraction": 0.9549114331723028
+        },
+        "SAR": {
+          "role": "SOURCE",
+          "interpolation": "bicubic",
+          "dtype": "uint8",
+          "shape": [
+            730,
+            621
+          ],
+          "valid_pixel_fraction": 0.9944477532923036
+        }
+      }
+    }
+  },
+  "run_dir": "D:\\INVINCIBLES-fullstack\\INVINCIBLES\\backend\\output\\registered\\ba98498c642c6b4b_4b14dded",
+  "cached": false
+}

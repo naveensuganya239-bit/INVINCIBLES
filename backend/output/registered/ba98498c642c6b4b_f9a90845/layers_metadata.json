@@ -1,0 +1,56 @@
+{
+  "reference_sensor": "OHRC",
+  "layers": {
+    "OHRC": {
+      "role": "REFERENCE",
+      "interpolation": "n/a (reference)",
+      "dtype": "uint8",
+      "shape": [
+        730,
+        621,
+        4
+      ],
+      "valid_pixel_fraction": 1.0
+    },
+    "TMC-Azimuth": {
+      "role": "SOURCE",
+      "interpolation": "nearest",
+      "dtype": "uint8",
+      "shape": [
+        730,
+        621
+      ],
+      "valid_pixel_fraction": 0.9454834226722255
+    },
+    "TMC-Slope": {
+      "role": "SOURCE",
+      "interpolation": "nearest",
+      "dtype": "uint8",
+      "shape": [
+        730,
+        621
+      ],
+      "valid_pixel_fraction": 0.9874947609908896
+    },
+    "IIRS": {
+      "role": "SOURCE",
+      "interpolation": "bicubic",
+      "dtype": "uint8",
+      "shape": [
+        730,
+        621
+      ],
+      "valid_pixel_fraction": 0.9549114331723028
+    },
+    "SAR": {
+      "role": "SOURCE",
+      "interpolation": "bicubic",
+      "dtype": "uint8",
+      "shape": [
+        730,
+        621
+      ],
+      "valid_pixel_fraction": 0.9944477532923036
+    }
+  }
+}
